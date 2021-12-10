@@ -21,3 +21,4 @@ THEN I am presented with a responsive layout that adapts to my viewport
 The URL of the deployed application.
 
 The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
+![screencapture-file-Users-Alba-02-Homework-index-html-2021-12-09-23_43_05](https://user-images.githubusercontent.com/94097708/145521542-89320681-8b41-4c41-ba39-2ef5ea6d0344.png)
