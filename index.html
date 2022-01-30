@@ -6,70 +6,124 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Porfolio</title>
 
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+        </style>
+      <link rel="stylesheet" href="./assets/css/style.css" /> 
+      <script
+      src="https://use.fontawesome.com/releases/v5.15.2/js/all.js" data-search-pseudo-elements>
+      </script>
+  </head>
+  
+  <body>
+    <!-- Navigation & Main Header -->
+      <header>
+          <h1>Genevie Giko</h1>
+          <nav>
+              <a href="#about">About Me</a>
+              <a href="#work">My Work</a>
+              <a href="#contact">Contact Me</a>   
+          </nav>
+      </header>
+  
+      <!-- Hero -->
+      <section class="hero-banner">
+        <img src="assets/images/Gene.JPG">
+        <div>
+          
+            <h2>Develope Things, Make A Difference</h2>
+        </div>
+      </section>
+  
+    <main class="page-wrapper">
+      <!-- About Me -->
+      <section class="page-section" id="about">
+        <h2>About Me</h2>
+        <div>
+          <p>
+            I put my best foot forward in everything I do. I help online entrepreneur moms, and professional women grow their business through social media and content creations. Most of my posts will center around walking with Christ in a modern world, parenting, food, everyday fashion for women and kids, and tips on starting a business.
 
-</head>
-<body>
-    <div class="main">
-        <div class="navbar">
-            <div class="icon">
-                <h1 class="logo">Genevie Giko</h1>
+          </p>
+      </section> 
+  
+      <!-- Portfolio Grid -->
+      <section class="page-section" id="work">
+        <h2>My Work</h2>
+        <div class="grid-container">
+          <!-- Feature Project #1 -->
+          <a href="https://geneviealba.github.io/odd-firebirds-project-/" class="grid-item project">
+            <div>
+              <h3>NASA Weather APP</h3>
+              <span>HTML,CSS, JS, APIs</span>
             </div>
-            <div class="menu">
-                <ul>
-                    <li><a href="#about-me">ABOUT ME</a></li>
-                    <li><a href="#">WORK</a></li>
-                    <li><a href="#">CONTACT ME</a></li>
-                    <li><a href="#">RESUME</a></li>
-                </ul>
-
-                    </section>
-                </main>
+          </a>
+          <!-- Project #2 -->
+          <a href="https://github.com/Geneviealba/Code-Refactor_02Homework-" class="grid-item horiseon">
+            <div>
+              <h3>Password Generator </h3>
+              <span>HTML, CSS, JS</span>
             </div>
-            <div class="subtitle">MAkE THINGS, MAKEA DIFFERENT</div>
-            <div class="container">About Me</div>
-            <p>I put my best foot forward in everything I do. I help online entrepreneur moms, and professional women grow their business through social media and content creations. Most of my posts will center around walking with Christ in a modern world, parenting, food, everyday fashion for women and kids, and tips on starting a business.
-
-            </p>
-            <div class="hero"></div>
-    <main class="content">
-        <section id="about-me" class="about-me">
-            <img src="./images/computer.jpg" alt="About Me" class="float-left">
-            <h2>About Me</h2>
-        </section>
-        <div id="work" class="work">
-            <img src="./images/coder.jpg" alt="work" class="float-right">
-            <h2>work</h2>
+          </a>
+          <!-- Project #3 -->
+          <a href="https://geneviealba.github.io/Daily-Work-Day-Planner/" class="grid-item plan">
+            <div>
+              <h3>Daily Planner</h3>
+              <span>Bootstrap, JS</span>
+            </div>
+          </a>
+           <!-- Project #4 -->
+          <a href="https://geneviealba.github.io/Fun-code-game-/" class="grid-item now">
+            <div>
+              <h3>Quiz Game</h3>
+              <span>Fun is GOOD</span>
+            </div>
+          </a>
+           <!-- Project #5 -->
+          <a href="https://geneviealba.github.io/your_daily_weather_dashdbroad-/" class="grid-item games">
+            <div>
+              <h3>Weather App</h3>
+              <span>Bootstrap, Node</span>
+            </div>
+          </a>
+          <!-- Project #6 -->
+          <a href="#" class="grid-item about">
+            <div>
+              <h3>About Me</h3>
+              <span>Showcase my work</span>
+            </div>
+          </a>
         </div>
-        <div id="project-two" class="project-two">
-            <img src="./images/goodday.jpg" alt="project-two" class="float-left">
-            <h2>Project Two</h2>
+      </section>
+  
+      
+      <!-- Contact -->
+      <section class="page-section contact" id="contact">
+        <h2>Contact Me</h2>
+        <div>
+          <address>
+            <!-- My Github URL-->
+              <a href="https://github.com/" target="_blank">
+                  <i class="fab fa-github"></i>
+                  GitHub
+              </a>
+               <!-- LinkedIn -->
+              <a href="https://www.linkedin.com/feed/?trk=homepage-basic_google-one-tap-submit" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                  Linkedin
+              </a>
+              <!-- Gitlab -->
+              <a href="https://www.instagram.com/bestof_alba/?hl=en" target="_blank">
+                <i class="fab fa-instagram"></i>
+                Instagram
+              </a>
+              <!-- My Websiite -->
+               <a href="https://www.genevievealba.com/" target="_blank"> 
+             My Website
+            </a>
+          </address>
         </div>
-    </main>
-    <div class="project-three">
-        <div class="project-three">
-            <h3>Project Three</h3>
-            <img src="./images/tech.jpg" alt= "project-three">
-        </div>
-        <div class="project-four">
-            <h3>Project Four</h3>
-            <img src="./images/work.jpg" alt= "project four">
-        </div>
+      </section>
        
-        <footer>
-        <div class="footer">
-                <ul>
-                    <li><a href="https://www.genevievealba.com/contact">Email</a></li>
-                    <li><a href="https://www.instagram.com/bestof_alba/?hl=en">Instagram</a></li>
-                    <li><a href="https://www.linkedin.com/feed/?trk=homepage-basic_google-one-tap-submit">LinkedIn</a></li>
-                    <li><a href="https://www.genevievealba.com/">Website</a></li>
-                </ul>
-        
-                <div class="icon">
-                    <h1 class="logo">Contact Me</h1>
-                </div>
-            </div>
-            </footer>
 </div>
 </body>
 </html>
