@@ -217,11 +217,11 @@ main {
 
 /* Images*/
 .greid-item .project {
-    background-image: url("images/space.jpg");
+    background-image: url("images/mar.png");
 }
 
 .horiseon {
-    background-image: url("images/about me.png");
+    background-image: url("images/horiseon.png");
 }
 
 .plan {
@@ -229,7 +229,7 @@ main {
 }
 
 .now {
-    background-image: url("images/mar.png");
+    background-image: url("images/quiz.png");
 }
 
 .about {
@@ -237,7 +237,7 @@ main {
 }
 
 .games {
-    background-image: url("images/mar.png"); 
+    background-image: url("images/weather.png"); 
 }
 
 /* Contact Section */
