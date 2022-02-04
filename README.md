@@ -16,9 +16,15 @@ WHEN I click on the images of the applications
 THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
+## updates and made some changes 
+I added the projects that I have worked on. I used HTML and CSS for the foundation and styling of my site. 
 
-## Build a portfolio website with html css
-The URL of the deployed application.
+## The GitHub Repository Link
 
-The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
-![screencapture-file-Users-Alba-02-Homework-index-html-2021-12-09-23_43_05](https://user-images.githubusercontent.com/94097708/145521542-89320681-8b41-4c41-ba39-2ef5ea6d0344.png)
+https://github.com/Geneviealba/my-portfolio
+
+## A deployed version can be viewed here
+https://geneviealba.github.io/my-portfolio/
+## Mock Up 
+https://user-images.githubusercontent.com/94097708/151714337-29052cf6-9645-4a5f-aead-a6621d38fbe4.mp4
+
