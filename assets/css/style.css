@@ -95,7 +95,7 @@ main {
 /* Hero Content */
 .hero-banner {
     background: var(--primary);
-    background-image: url("images/tech.jpg"), linear-gradient(90deg, var(--secondary) 0%, var(--primary) 100%);
+    background-image: url("../images/tech.jpg"), linear-gradient(90deg, var(--secondary) 0%, var(--primary) 100%);
     background-size: cover;
     background-position: center;
     background-blend-mode: soft-light;
@@ -216,28 +216,33 @@ main {
 }
 
 /* Images*/
-.greid-item .project {
-    background-image: url("images/mar.png");
+.project{
+    background-image: url("../images/mar.png");
+    background-size: cover;
 }
 
 .horiseon {
-    background-image: url("images/horiseon.png");
+    background-image: url("../images/horiseon.png");
 }
 
 .plan {
-    background-image: url("images/plan.png");
+    background-image: url("../images/plan.png");
+    background-size: cover
 }
 
 .now {
-    background-image: url("images/quiz.png");
+    background-image: url("../images/quiz.png");
+    background-size: cover 
 }
 
 .about {
-    background-image: url("images/about me.png"); 
+    background-image: url("../images/about me.png"); 
+    background-size: cover 
 }
 
 .games {
-    background-image: url("images/weather.png"); 
+    background-image: url("../images/weather.png"); 
+    background-size: cover
 }
 
 /* Contact Section */
