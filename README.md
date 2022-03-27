@@ -1,4 +1,5 @@
 ## Creating My Portfolio
+[![License: MIT](https://img.shields.io/badge/License-MIT-pink.svg)](https://opensource.org/licenses/MIT)
 
 ## Acceptance Criteria
 
@@ -28,3 +29,8 @@ https://geneviealba.github.io/my-portfolio/
 ## Mock Up 
 https://user-images.githubusercontent.com/94097708/151714337-29052cf6-9645-4a5f-aead-a6621d38fbe4.mp4
 
+## Tests
+No tests need to run for this application.
+
+## Questions
+If you have any questions or concerns please contact me at sunnydayvirtual@gmail.com or checkout my GitHub page at geneviealba.
